@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 > An empty repository is created, which contains no commit. It works that way so that it won't automatically include files you actually don't want to keep track of.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+> a prep table where Git will take the next commit. Files on the Staging Index are poised to be added to the repository. this allows you to group some files, out of all of the changed files in the working directory, so that the grouped files can be committed together.
