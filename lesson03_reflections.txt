@@ -46,3 +46,8 @@
    collaboration.
    
    
+(6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+>> Working directly in Master when I'm working on my own device or with just one or two other people.
+   When working with a large group, using Branches to keep track of which changes have already been reviewed and
+   approved. Branches are good for experimentation. The master should be used for working production code. 
